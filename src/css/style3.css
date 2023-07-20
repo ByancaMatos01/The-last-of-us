@@ -1,0 +1,41 @@
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.navegation {
+    display: flex;
+    align-items: center;
+}
+
+.navegation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navegation li {
+    margin-right: 15px;
+}
+
+/* Media query para telas menores */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .navegation {
+        margin-top: 15px;
+    }
+    
+    .text {
+        font-size: 16px;
+    }
+}
